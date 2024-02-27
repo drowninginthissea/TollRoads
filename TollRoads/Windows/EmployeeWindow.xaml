@@ -7,7 +7,7 @@
              mc:Ignorable="d"
              xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
              xmlns:modern="http://schemas.modernwpf.com/2019"
-             xmlns:pages="clr-namespace:TollRoads.Windows"
+             xmlns:pages="clr-namespace:TollRoads.Windows.Pages"
              WindowStartupLocation="CenterScreen"
              WindowState="Maximized"
              modern:ThemeManager.RequestedTheme="Dark"

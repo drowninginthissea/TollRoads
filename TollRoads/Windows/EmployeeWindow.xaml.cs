@@ -1,5 +1,6 @@
 ﻿using ModernWpf.Controls;
 using TollRoads.Models;
+using TollRoads.Windows.Pages;
 using Wpf.Ui.Controls;
 
 namespace TollRoads.Windows
@@ -16,7 +17,7 @@ namespace TollRoads.Windows
 
             //по началу планируется выводить пустую страницу,
             //на которой ещё не выбрана таблица для манипуляции
-            //MainContent.Content = new EmptyPage();
+            MainContent.Content = new EmptyPage();
         }
 
         private void NavigationView_SelectionChanged(ModernWpf.Controls.NavigationView sender,
