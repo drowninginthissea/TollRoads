@@ -39,7 +39,7 @@
 
             <!--в свойстве Tag предполагается хранить тип данных страницы, которую
             необходимо отобразить в Frame, к примеру: Tag="{x:Type pages:EmployeesPage}"-->
-            <modern:NavigationViewItem Tag=""
+            <modern:NavigationViewItem Tag="{x:Type pages:EmployeesPage}"
                                        Margin="0 5 0 0">
                 <modern:NavigationViewItem.Content>
                     <modern:SimpleStackPanel Orientation="Horizontal"
@@ -154,19 +154,19 @@
 
                 <!--секция меню со справочниками-->
                 <modern:NavigationViewItem.MenuItems>
-                    <modern:NavigationViewItem Tag=""
+                    <modern:NavigationViewItem Tag="{x:Type pages:VehicleCategoryPage}"
                                                Foreground="White"
                                                FontSize="20"
                                                Content="Категория ТС" />
-                    <modern:NavigationViewItem Tag=""
+                    <modern:NavigationViewItem Tag="{x:Type pages:RolesPage}"
                                                Foreground="White"
                                                FontSize="20"
                                                Content="Роли" />
-                    <modern:NavigationViewItem Tag=""
+                    <modern:NavigationViewItem Tag="{x:Type pages:GenderPage}"
                                                Foreground="White"
                                                FontSize="20"
                                                Content="Пол" />
-                    <modern:NavigationViewItem Tag=""
+                    <modern:NavigationViewItem Tag="{x:Type pages:StatusesOfTripPage}"
                                                Foreground="White"
                                                FontSize="20"
                                                Content="Статусы поездок" />
